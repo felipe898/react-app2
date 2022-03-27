@@ -50,7 +50,8 @@ function App() {
     <div className="App">
 
       <select onChange={onChangeImagen}>
-        
+
+        <option value="">Selecionar opcion</option>
         <option value="fire">Casa en llamas</option>
         <option value="futurama">Futurama</option>
         <option value="history">History Channel</option>
